@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const page = () => {
   return (
@@ -15,6 +16,10 @@ const page = () => {
         <br></br>
         <label>enter your password</label>
         <input />
+       {/* <Link href="/login">click</Link> */}
+
+       <button>click</button>
+       {/* <Link>click</Link> */}
     </div>
   )
 }
