@@ -34,8 +34,19 @@ body {
 
 
 
-
-
 .pagehome{
   color: red;
+  text-align: center;
+  background-color: green;
+}
+
+.homepagepara{
+  text-align: center;
+  /* background-color: aqua; */
+}
+
+.components{
+  /* display: flex; */
+  border: 3px solid red;
+  
 }
