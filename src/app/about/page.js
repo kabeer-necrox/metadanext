@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const page = () => {
   return (
-    <div>
+    <div style={{backgroundColor:"pink"}}>
       <h1>this is about page</h1>
       <p>pattern for make routes in next js</p>
       <p>we do't need to instill exteral file in next js</p>

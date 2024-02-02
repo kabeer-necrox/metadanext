@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const page = () => {
   return (
-    <div>
+    <div style={{backgroundColor:"yellow"}}>
         
         <h1>this is the Dashboard</h1>
         <h2>this is our e-commers web</h2>
