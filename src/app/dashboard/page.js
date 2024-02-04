@@ -11,6 +11,9 @@ const page = () => {
         <Link href="/about">about</Link>
         <br />
         <Link href="/login">login</Link>
+
+        <br />
+        <Link href="/login/teacherlogin">teacher login</Link>
     </div>
   )
 }

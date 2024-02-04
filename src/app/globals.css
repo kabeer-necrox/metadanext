@@ -53,3 +53,23 @@ body {
 /* link{
   text-decoration: none;
 } */
+.teacherlogin{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+}
+.teachbtn{
+  border: lightblue;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: blue;
+}
+
+.teachbtn:hover{
+  background-color: yellow;
+  color: brown;
+  
+}
