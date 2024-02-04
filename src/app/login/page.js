@@ -1,8 +1,9 @@
-import React from 'react'
-// import { Link } from 'react-router-dom'
+// {'use client'}
 import Link from 'next/link'
-
+// import {} from 'next/navigation'
 const page = () => {
+
+  // const router = userRouter();
   return (
     <div style={{backgroundColor:"red"}}>
 
@@ -14,13 +15,13 @@ const page = () => {
         <label>enter your email</label>
         <input />
         <br></br>
-        <br></br>
         <label>enter your password</label>
         <input />
-       {/* <Link href="/login">click</Link> */}
-
-       <button>click</button>
+       {/* <button onClick={()=>router.push('/about')}>go to somwhere</button> */}
        <Link href="/dashboard">click</Link>
+       <br /> 
+       <br />
+       <Link href="/login/studentlogin">student login</Link>
     </div>
   )
 }
