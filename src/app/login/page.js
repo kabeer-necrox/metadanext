@@ -17,7 +17,7 @@ const page = () => {
         <br></br>
         <label>enter your password</label>
         <input />
-       {/* <button onClick={()=>router.push('/about')}>go to somwhere</button> */}
+  
        <Link href="/dashboard">click</Link>
        <br /> 
        <br />
