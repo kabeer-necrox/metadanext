@@ -11,6 +11,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Passion+One&family=Roboto:ital,wght@0,500;0,700;0,900;1,700&display=swap" rel="stylesheet" />
+      </head>
       <h1 style={{color:"pink", border:"5px"}}>this is the common layout of myweb </h1>
       <body className={inter.className}>{children}</body>
       
