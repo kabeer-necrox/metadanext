@@ -1,6 +1,7 @@
 {
   ("use client");
 }
+import productlist from './productlist/page'
 import Link from "next/link";
 
 export default function Home() {

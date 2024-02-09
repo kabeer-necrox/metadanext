@@ -1,23 +1,15 @@
-
-async function productlist(){
-  let data = await fetch("https://dummyjson.com/products")
-  data = await data.json()
-  return data.products
-}
-
-export  default async function pages(){
-  let product = await productlist()
-  console.log(product)
+'use client'
+ 
+import { useState } from 'react'
+ 
+export default function Counter() {
+  const [count, setCount] = useState(0)
+ 
   return (
     <div>
-      <h1>this is the backend  check api list</h1>
-      {
-        product.map((item)=>{
-          <div>
-            <h3>name:{item.title}</h3>
-          </div>
-        })
-      }
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>Click me</button>
+      <button onClick={()=> alert("hello imran kahan")}>click me</button>
     </div>
   )
 }
